@@ -5,9 +5,7 @@
 
 This repository provides the implementation of a **language-oriented semantic communication framework for text-to-image generation**.
 
-The framework investigates semantic coding, importance-aware word transmission, and knowledge distillation to improve the efficiency of language-based image generation over communication networks.
-
-Rather than treating every word as equally important, the framework explores strategies for identifying and prioritizing influential words using language-model attention, image reconstruction quality, and linguistic structure.
+The framework investigates semantic coding, importance-aware word transmission, and knowledge distillation to improve the efficiency of language-based image generation over communication networks using LLM.
 
 The implementation includes multiple word-selection strategies (attention-based selection, LPIPS-based selection), semantic contribution matching, and structured semantic coding (SSC/SCC/SKD).
 
