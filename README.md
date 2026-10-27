@@ -26,26 +26,6 @@ The implementation includes multiple word-selection strategies, such as attentio
 
 *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Republic of Korea, 2024, pp. 13506–13510.*
 
-**DOI:** [10.1109/ICASSP48485.2024.10446638](https://doi.org/10.1109/ICASSP48485.2024.10446638)
-
-### Citation
-
-If you use this implementation in your research, please cite:
-
-```bibtex
-@inproceedings{nam2024language,
-  title={Language-Oriented Communication with Semantic Coding
-         and Knowledge Distillation for Text-to-Image Generation},
-  author={Nam, Hyelin and Park, Jihong and Choi, Jinho
-          and Bennis, Mehdi and Kim, Seong-Lyun},
-  booktitle={2024 IEEE International Conference on Acoustics,
-             Speech and Signal Processing (ICASSP)},
-  pages={13506--13510},
-  year={2024},
-  organization={IEEE},
-  doi={10.1109/ICASSP48485.2024.10446638}
-}
-```
 
 [![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-252341?style=for-the-badge&logo=ieee&logoColor=A78BFA)](https://doi.org/10.1109/ICASSP48485.2024.10446638)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-202C49?style=for-the-badge&logo=googlescholar&logoColor=79B8FF)](https://scholar.google.com/scholar?q=Language-Oriented+Communication+with+Semantic+Coding+and+Knowledge+Distillation+for+Text-to-Image+Generation)
@@ -201,8 +181,24 @@ Word Selection Methods
         └── heads_skd
 ```
 
+---
 
+## Citation
 
+```bibtex
+@inproceedings{nam2024language,
+  title={Language-Oriented Communication with Semantic Coding
+         and Knowledge Distillation for Text-to-Image Generation},
+  author={Nam, Hyelin and Park, Jihong and Choi, Jinho
+          and Bennis, Mehdi and Kim, Seong-Lyun},
+  booktitle={2024 IEEE International Conference on Acoustics,
+             Speech and Signal Processing (ICASSP)},
+  pages={13506--13510},
+  year={2024},
+  organization={IEEE},
+  doi={10.1109/ICASSP48485.2024.10446638}
+}
+```
 ---
 
 ## References and Acknowledgments
