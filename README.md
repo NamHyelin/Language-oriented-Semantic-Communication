@@ -9,7 +9,7 @@ The framework investigates semantic coding, importance-aware word transmission, 
 
 Rather than treating every word as equally important, the framework explores strategies for identifying and prioritizing influential words using language-model attention, image reconstruction quality, and linguistic structure.
 
-The implementation includes multiple word-selection strategies, such as attention-based selection, LPIPS-based selection, semantic contribution matching, and structured semantic coding (SSC/SKD).
+The implementation includes multiple word-selection strategies (attention-based selection, LPIPS-based selection), semantic contribution matching, and structured semantic coding (SSC/SCC/SKD).
 
 [![Python](https://img.shields.io/badge/Python-262139?style=for-the-badge&logo=python&logoColor=F472B6)](#)
 [![PyTorch](https://img.shields.io/badge/PyTorch-252341?style=for-the-badge&logo=pytorch&logoColor=A78BFA)](#)
@@ -31,6 +31,14 @@ The implementation includes multiple word-selection strategies, such as attentio
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-202C49?style=for-the-badge&logo=googlescholar&logoColor=79B8FF)](https://scholar.google.com/scholar?q=Language-Oriented+Communication+with+Semantic+Coding+and+Knowledge+Distillation+for+Text-to-Image+Generation)
 
 
+**Sequential semantic generative communication for progressive text-to-image generation**
+
+**H. Nam**, J. Park, J. Choi, and S.-L. Kim
+
+*2023 20th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON), Madrid, Spain, 2023, pp. 91-94.*
+
+[![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-252341?style=for-the-badge&logo=ieee&logoColor=A78BFA)](https://doi.org/10.1109/SECON58729.2023.10287475)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-202C49?style=for-the-badge&logo=googlescholar&logoColor=79B8FF)](https://scholar.google.com/scholar?q=Sequential+semantic+generative+communication+for+progressive+text-to-image+generation)
 
 ---
 
