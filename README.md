@@ -30,6 +30,7 @@ The implementation includes multiple word-selection strategies (attention-based 
 [![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-252341?style=for-the-badge&logo=ieee&logoColor=A78BFA)](https://doi.org/10.1109/ICASSP48485.2024.10446638)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-202C49?style=for-the-badge&logo=googlescholar&logoColor=79B8FF)](https://scholar.google.com/scholar?q=Language-Oriented+Communication+with+Semantic+Coding+and+Knowledge+Distillation+for+Text-to-Image+Generation)
 
+---
 
 **Sequential semantic generative communication for progressive text-to-image generation**
 
@@ -63,11 +64,17 @@ The implemented strategies explore word importance using:
 - **Cross-attention similarity:** Comparing image-region contribution maps between Alice and Bob.
 - **Linguistic structures:** Prioritizing nouns, verbs, and head words.
 
-### Structured Semantic Coding (SSC)
+### Semantic Semantic Coding (SSC)
 
 The `heads` option transmits linguistic head words first while preserving their contextual sequence.
 
 Additional variants investigate how word ordering and priority selection affect transmission.
+
+### Semantic Semantic Coding (SSC)
+
+The generated text is transmitted over wireless channel with given `snr`.
+
+More robust token with same semantic is selected via LLM and replaced.
 
 ### Semantic Knowledge Distillation (SKD)
 
