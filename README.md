@@ -1,6 +1,6 @@
 
 # Language-Oriented Semantic Communication
----
+
 **Semantic Coding & Knowledge Distillation for Text-to-Image Generation**
 
 This repository provides the implementation of a **language-oriented semantic communication framework for text-to-image generation**.
@@ -34,7 +34,7 @@ The implementation includes multiple word-selection strategies, such as attentio
 
 ---
 
-## Getting Started
+## Overview
 
 
 ### System Framework
@@ -43,7 +43,33 @@ The implementation includes multiple word-selection strategies, such as attentio
   <img src="https://github.com/user-attachments/assets/51797ffe-d367-4426-8828-669ebf7e6511" width="95%" alt="Language-Oriented Semantic Communication Framework"/>
 </p>
 
+### Importance-Aware Word Transmission
+
+Different words contribute differently to the generated image.
+
+The implemented strategies explore word importance using:
+
+- **Language-model attention:** Identifying influential words from the attention structure.
+- **Image reconstruction quality:** Selecting words based on LPIPS with respect to the desired image.
+- **Semantic contribution:** Measuring the impact of words on other words.
+- **Cross-attention similarity:** Comparing image-region contribution maps between Alice and Bob.
+- **Linguistic structures:** Prioritizing nouns, verbs, and head words.
+
+### Structured Semantic Coding (SSC)
+
+The `heads` option transmits linguistic head words first while preserving their contextual sequence.
+
+Additional variants investigate how word ordering and priority selection affect transmission.
+
+### Semantic Knowledge Distillation (SKD)
+
+The `heads_skd` option fine-tunes Alice and transmits head words first in contextual order.
+
+The approach investigates how knowledge distillation can support language-oriented semantic coding for text-to-image generation.
+
 ---
+
+## Getting Started
 
 
 ### 1. External Dependencies
@@ -109,34 +135,6 @@ The implementation supports multiple strategies for selecting the words transmit
 | `prompttune` | `heads_partBob` | Transmits head words first, prioritizing them using a language model from Bob's model, similarly to `partBob`. |
 | `prompttune` | `heads_random` | Transmits head words first in a random sequence. |
 | `prompttune` | `heads_skd` | **SKD:** Fine-tunes Alice and transmits head words first, following the context sequence. |
-
----
-
-## Key Concepts
-
-### Importance-Aware Word Transmission
-
-Different words contribute differently to the generated image.
-
-The implemented strategies explore word importance using:
-
-- **Language-model attention:** Identifying influential words from the attention structure.
-- **Image reconstruction quality:** Selecting words based on LPIPS with respect to the desired image.
-- **Semantic contribution:** Measuring the impact of words on other words.
-- **Cross-attention similarity:** Comparing image-region contribution maps between Alice and Bob.
-- **Linguistic structures:** Prioritizing nouns, verbs, and head words.
-
-### Structured Semantic Coding (SSC)
-
-The `heads` option transmits linguistic head words first while preserving their contextual sequence.
-
-Additional variants investigate how word ordering and priority selection affect transmission.
-
-### Semantic Knowledge Distillation (SKD)
-
-The `heads_skd` option fine-tunes Alice and transmits head words first in contextual order.
-
-The approach investigates how knowledge distillation can support language-oriented semantic coding for text-to-image generation.
 
 ---
 
