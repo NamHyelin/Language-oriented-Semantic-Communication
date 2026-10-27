@@ -1,27 +1,7 @@
 
 # Language-Oriented Semantic Communication
-
-**Semantic Coding & Knowledge Distillation for Text-to-Image Generation**
-
-Official implementation of the paper:
-
-**"Language-Oriented Communication with Semantic Coding and Knowledge Distillation for Text-to-Image Generation"**
-
-Hyelin Nam, Jihong Park, Jinho Choi, Mehdi Bennis, and Seong-Lyun Kim
-
-*IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.*
-
-[![Python](https://img.shields.io/badge/Python-262139?style=for-the-badge&logo=python&logoColor=F472B6)](#)
-[![PyTorch](https://img.shields.io/badge/PyTorch-252341?style=for-the-badge&logo=pytorch&logoColor=A78BFA)](#)
-[![Semantic Communication](https://img.shields.io/badge/Semantic_Communication-202C49?style=for-the-badge&logoColor=79B8FF)](#)
-[![Generative AI](https://img.shields.io/badge/Generative_AI-262139?style=for-the-badge&logoColor=F472B6)](#)
-
-[![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-252341?style=for-the-badge&logo=ieee&logoColor=A78BFA)](https://doi.org/10.1109/ICASSP48485.2024.10446638)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-202C49?style=for-the-badge&logo=googlescholar&logoColor=79B8FF)](https://scholar.google.com/scholar?q=Language-Oriented+Communication+with+Semantic+Coding+and+Knowledge+Distillation+for+Text-to-Image+Generation)
-
 ---
-
-## Overview
+**Semantic Coding & Knowledge Distillation for Text-to-Image Generation**
 
 This repository provides the implementation of a **language-oriented semantic communication framework for text-to-image generation**.
 
@@ -31,6 +11,52 @@ Rather than treating every word as equally important, the framework explores str
 
 The implementation includes multiple word-selection strategies, such as attention-based selection, LPIPS-based selection, semantic contribution matching, and structured semantic coding (SSC/SKD).
 
+[![Python](https://img.shields.io/badge/Python-262139?style=for-the-badge&logo=python&logoColor=F472B6)](#)
+[![PyTorch](https://img.shields.io/badge/PyTorch-252341?style=for-the-badge&logo=pytorch&logoColor=A78BFA)](#)
+[![Semantic Communication](https://img.shields.io/badge/Semantic_Communication-202C49?style=for-the-badge&logoColor=79B8FF)](#)
+[![Generative AI](https://img.shields.io/badge/Generative_AI-262139?style=for-the-badge&logoColor=F472B6)](#)
+
+---
+
+## Publication
+
+**Language-Oriented Communication with Semantic Coding and Knowledge Distillation for Text-to-Image Generation**
+
+**H. Nam**, J. Park, J. Choi, M. Bennis, and S.-L. Kim
+
+*IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Republic of Korea, 2024, pp. 13506–13510.*
+
+**DOI:** [10.1109/ICASSP48485.2024.10446638](https://doi.org/10.1109/ICASSP48485.2024.10446638)
+
+### Citation
+
+If you use this implementation in your research, please cite:
+
+```bibtex
+@inproceedings{nam2024language,
+  title={Language-Oriented Communication with Semantic Coding
+         and Knowledge Distillation for Text-to-Image Generation},
+  author={Nam, Hyelin and Park, Jihong and Choi, Jinho
+          and Bennis, Mehdi and Kim, Seong-Lyun},
+  booktitle={2024 IEEE International Conference on Acoustics,
+             Speech and Signal Processing (ICASSP)},
+  pages={13506--13510},
+  year={2024},
+  organization={IEEE},
+  doi={10.1109/ICASSP48485.2024.10446638}
+}
+```
+
+[![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-252341?style=for-the-badge&logo=ieee&logoColor=A78BFA)](https://doi.org/10.1109/ICASSP48485.2024.10446638)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-202C49?style=for-the-badge&logo=googlescholar&logoColor=79B8FF)](https://scholar.google.com/scholar?q=Language-Oriented+Communication+with+Semantic+Coding+and+Knowledge+Distillation+for+Text-to-Image+Generation)
+
+
+
+---
+
+## Getting Started
+
+
 ### System Framework
 
 <p align="center">
@@ -39,7 +65,6 @@ The implementation includes multiple word-selection strategies, such as attentio
 
 ---
 
-## Getting Started
 
 ### 1. External Dependencies
 
@@ -176,36 +201,7 @@ Word Selection Methods
         └── heads_skd
 ```
 
----
 
-## Publication
-
-**Language-Oriented Communication with Semantic Coding and Knowledge Distillation for Text-to-Image Generation**
-
-**H. Nam**, J. Park, J. Choi, M. Bennis, and S.-L. Kim
-
-*IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Republic of Korea, 2024, pp. 13506–13510.*
-
-**DOI:** [10.1109/ICASSP48485.2024.10446638](https://doi.org/10.1109/ICASSP48485.2024.10446638)
-
-### Citation
-
-If you use this implementation in your research, please cite:
-
-```bibtex
-@inproceedings{nam2024language,
-  title={Language-Oriented Communication with Semantic Coding
-         and Knowledge Distillation for Text-to-Image Generation},
-  author={Nam, Hyelin and Park, Jihong and Choi, Jinho
-          and Bennis, Mehdi and Kim, Seong-Lyun},
-  booktitle={2024 IEEE International Conference on Acoustics,
-             Speech and Signal Processing (ICASSP)},
-  pages={13506--13510},
-  year={2024},
-  organization={IEEE},
-  doi={10.1109/ICASSP48485.2024.10446638}
-}
-```
 
 ---
 
