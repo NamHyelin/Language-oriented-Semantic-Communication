@@ -13,6 +13,7 @@ The implementation includes multiple word-selection strategies (attention-based 
 [![PyTorch](https://img.shields.io/badge/PyTorch-252341?style=for-the-badge&logo=pytorch&logoColor=A78BFA)](#)
 [![Semantic Communication](https://img.shields.io/badge/Semantic_Communication-202C49?style=for-the-badge&logoColor=79B8FF)](#)
 [![Generative AI](https://img.shields.io/badge/Generative_AI-262139?style=for-the-badge&logoColor=F472B6)](#)
+[![LLM](https://img.shields.io/badge/LLM-252341?style=for-the-badge&logo=openai&logoColor=A78BFA)](#)
 
 ---
 
